@@ -1,0 +1,5 @@
+<div ><center><table style="background-color: white;border-bottom: 1px solid black;font-family: Century Schoolbook;width: 100%">
+            <tr><td rowspan="2" ></td><td rowspan="3"><img src="../images/NIOT LOGO.png" height="80" width="80" style="background-color: white;"></td><td style="font-size: 25px;font-family: Century Schoolbook;font-weight: bolder;color: black"><center>ACOUSTIC TEST FACILITY</center></td></tr>
+                    <tr ><td style="font-size: 20px;font-family: Century Schoolbook;font-weight: bolder;color: black"><center>NATIONAL INSTITUTE OF OCEAN TECHNOLOGY</center></td></tr>
+                    
+                   <tr style="background-color: #e9e9e9"><td colspan="3" id="dis"> <label style="float: right;color: #990000;font-size: 15px;font-family: Century Schoolbook;"><?php echo "<b>Welcome :"; echo "&nbsp;&nbsp;&nbsp;"; echo$_SESSION['f_name'];echo"</b>"; ?> </label></td></tr></table></center></div>

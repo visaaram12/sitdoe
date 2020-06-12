@@ -1,0 +1,95 @@
+    html {
+  background-image: url('images/backgr.jpg');
+   background-size: cover;
+ background-repeat: repeat;
+}
+
+body {
+   font-family: "Century Schoolbook";
+  height: 100vh;
+ background-image: url('images/backgr.jpg');
+ background-size: cover;
+ background-repeat: repeat;
+}
+label{
+     font-family: calibri;
+}
+
+
+ a{
+    text-align: center;
+    font-weight: bolder;
+    font-family: calibri;
+
+
+     
+}
+
+.engraved {
+    font-size: 22px;
+   font-family: "Century Schoolbook";
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: #140f06;
+  
+ }
+
+ a 
+ {
+     text-decoration: none;
+ }
+   h2 {
+  font-family: "Century Schoolbook";
+    font-size: 8px;
+    width: 100% ;
+    margin-top: calc(5vh - 2vw);
+    text-align: center;
+    background: linear-gradient(
+        60deg,
+        hsl(0, 75%, 50%) 50%,
+        hsl(20, 75%, 50%) 10%,
+       
+        
+        hsl(50, 75%, 50%) 40%,
+        hsl(130, 75%, 50%) 40%,
+        hsl(130, 75%, 50%) 55%,
+        hsl(200, 75%, 50%) 55%,
+        hsl(200, 75%, 50%) 10%,
+        hsl(260, 75%, 50%) 70%,
+        hsl(260, 75%, 50%) 85%,
+        hsl(0, 75%, 50%) 85%
+    );
+
+  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: 10s BeProud linear infinite,
+    3s Always ease alternate infinite;
+}
+
+@keyframes BeProud {
+    100% { background-position: 100vw 0px; }
+}
+@keyframes Always {
+    100% { transform: scale(1.1);} }
+    
+       blink {
+        animation: blinker 0.6s linear infinite;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
